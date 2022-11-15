@@ -34,3 +34,44 @@
     width: 100%;
     height: 450px;
 }
+
+.bg-blue-1 {
+    background: rgb(77, 157, 177);
+}
+
+.bg-blue-2 {
+    background: rgb(52, 121, 138);
+}
+
+.bg-blue-3 {
+    background: rgb(38, 95, 109);
+}
+
+.devlog-blue {
+    width: 100%;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+}
+
+.devlog-content-blue {
+    margin: 3rem;
+}
+
+.devlog-white {
+    background: #fff;
+    width: 100%;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: rgb(13, 91, 110);
+}
+
+.devlog-content-white {
+    margin: 3rem;
+}
