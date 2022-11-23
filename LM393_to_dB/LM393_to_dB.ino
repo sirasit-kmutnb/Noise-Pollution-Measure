@@ -74,5 +74,7 @@ void loop() {
   Serial.print(peakToPeak);
   Serial.print(" ");
   Serial.println(db2);
+  Serial.write(13);
+  Serial.write(10);
   delay(10000);
 }
