@@ -69,16 +69,15 @@ void loop() {
     db2 = map(peakToPeak,107,120,110.5,111.1);
   }     //calibrate for deciBels
   int db = (peakToPeak + 230.66265060241) / 5.77835479850436;  //calibrate for dB using linear regression (beta)
-  Serial.print(db);
-  Serial.print(" ");
-  Serial.print(peakToPeak);
-  Serial.print(" ");
-  Serial.println(db2);
-<<<<<<< HEAD
-  delay(100);
-=======
+  // Serial.print(db);
+  // Serial.print(" ");
+  // Serial.print(peakToPeak);
+  // Serial.print(" ");
+  Serial.print(db2);
   Serial.write(13);
   Serial.write(10);
-  delay(10000);
->>>>>>> 223ef649342aab451ff6cdf5653946e6478e53c6
+  delay(1000);
+
+  
+
 }
